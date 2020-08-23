@@ -1,6 +1,8 @@
 ## How to use
-
-First run the following code in your terminal: <br>
+First clone this repo using:<br>
+>git clone https://github.com/ved08/chat-app.git<br>
+Then `cd` into the project using `cd chat-app`<br>
+Then, run the following code in your terminal: <br>
 `npm install` or `npm i`
 This will install all the packages.<br><br>
 
