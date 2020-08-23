@@ -2,8 +2,9 @@ let express = require('express');
 let socket = require('socket.io')
 //App setup
 let app = express();
-let server = app.listen(3000, () => {
-    console.log("Listening to port 300")
+let port = process.env.PORT || 3000
+let server = app.listen(port, () => {
+    console.log("Listening to port " + port)
 });
 
 // Serve Static files
