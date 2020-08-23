@@ -5,4 +5,5 @@ First run the following code in your terminal: <br>
 This will install all the packages.<br><br>
 
 You are ready to go now. Just type `node .` to start the server.<br>
-You can view the page at `localhost:3000`
+You can view the page at `localhost:3000`<br><br>
+You can view the hosted page [here](https://ved08-chat-app.glitch.me/)
