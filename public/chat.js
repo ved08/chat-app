@@ -8,9 +8,10 @@ var btn = document.getElementById('send');
 var output = document.getElementById('output');
 var feedback = document.getElementById('feedback')
 
+// Logic if handle name is empty
 if (handle == "") {
-    socket.on('id', (data) => {
-        handle = data
+    socket.on('id', (id) => {
+        handle = id
     })
 }
 
