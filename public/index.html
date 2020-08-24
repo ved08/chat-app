@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socket App</title>
+    <script src="https://kit.fontawesome.com/b937a88bdb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha512-v8ng/uGxkge3d1IJuEo6dJP8JViyvms0cly9pnbfRxT6/31c3dRWxIiwGnMSWwZjHKOuY3EVmijs7k1jz/9bLA==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <h1 class="header">Chat App</h1>
     <div id="mario-chat">
         <div id="chat-window">
             <div id="output"></div>
@@ -16,6 +19,7 @@
         <input type="text" placeholder="Type your message" id="message">
         <button id="send">Send</button>
     </div>
+    <i id="customise" class="fas fa-palette" onclick="customise()"></i>
     <script src="chat.js"></script>
 </body>
 </html>
