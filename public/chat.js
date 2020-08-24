@@ -9,7 +9,7 @@ var output = document.getElementById('output');
 var feedback = document.getElementById('feedback')
 
 if (handle == "") {
-    socket.on('hello', (data) => {
+    socket.on('id', (data) => {
         handle = data
     })
 }

@@ -14,8 +14,10 @@ app.use(express.static('public'));
 let io = socket(server);
 
 io.on('connection', (socket) => {
-    console.log('User Connected id: ' + socket.id)
-    socket.emit('hello', socket.id)
+    console.log('User Connected id: ' + socket.id);
+
+    socket.emit('id', socket.id)
+
     socket.on('disconnect', () => {
         console.log("A user has left us")
     })
